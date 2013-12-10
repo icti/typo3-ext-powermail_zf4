@@ -1,3 +1,27 @@
+{namespace v=Tx_Vhs_ViewHelpers}
 <div class="tx-powermail">
 	<f:render section="main" />
 </div>
+
+<v:asset.script name="powermailJQueryMigrate" group="powermail" 
+		path="http://code.jquery.com/jquery-migrate-1.2.1.min.js" external="TRUE" standalone="TRUE" />
+<v:asset.script name="powermailJQueryUi" group="powermail" 
+		path="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js" external="TRUE" standalone="TRUE" />
+<v:asset.script name="powermailJQueryUiDatepicker" group="powermail" 
+		path="EXT:powermail/Resources/Public/Js/jquery.ui.datepicker.min.js"  />
+<v:asset.script name="powermailJQueryFormValidationLanguage"  group="powermail"
+		path="EXT:powermail/Resources/Public/Js/jquery.validationEngine-en.js"  />
+<v:asset.script name="powermailJQueryFormValidation" group="powermail" 
+		path="EXT:powermail/Resources/Public/Js/jquery.validationEngine.js"  />
+<v:asset.script name="powermailJQueryTabs" group="powermail" 
+		path="EXT:powermail/Resources/Public/Js/tabs.js"  />
+
+<v:asset.script name="powermailForm" group="powermail" 
+		path="EXT:powermail_zf4/Resources/Public/Js/form.js"  />
+
+<v:asset.style name="powermailJQueryUiTheme" group="powermail" 
+		path="EXT:powermail/Resources/Public/Css/jquery.ui.theme.css" />
+<v:asset.style name="powermailJQueryUiDatepickerCss" group="powermail" 
+		path="EXT:powermail/Resources/Public/Css/jquery.ui.datepicker.css" />
+<v:asset.style name="powermailJQueryFormValidationCss" group="powermail" 
+		path="EXT:powermail_zf4/Resources/Public/Css/validationEngine.jquery.css" />

@@ -1,5 +1,22 @@
+
+
 page {
+	# Inlude JavaScript files
+	includeJSFooterlibs {
+		powermailJQuery > 
+		powermailJQueryUi > 
+		powermailJQueryUiDatepicker > 
+		powermailJQueryFormValidationLanguage >
+		powermailJQueryFormValidation >
+		powermailJQueryTabs >
+	}
+	includeJSFooter {
+		powermailForm >
+	}
+
+	# Include CSS files
 	includeCSS {
-		powermailValidation = EXT:powermail_zf4/Resources/Public/Css/validationEngine.jquery.css
+		powermailJQueryUiTheme >
+		powermailJQueryUiDatepicker >
 	}
 }
